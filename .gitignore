@@ -1,0 +1,88 @@
+### ----------------------------------------------------
+### GENERAL/MISCELLANEOUS
+### ----------------------------------------------------
+# Compiled source files and cache files
+*.class
+*.log
+*.pyc
+*.swp
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# History and version control
+.history
+.svn/
+.gitkeep # Often used to preserve empty directories, but usually ignored
+
+# Build artifacts/working directories
+.build/
+.buildlog/
+migrate_working_dir/
+
+### ----------------------------------------------------
+### IDE/TOOLING CONFIGURATION
+### ----------------------------------------------------
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/ # Uncomment this if you DO NOT want to commit VS Code settings
+
+### ----------------------------------------------------
+### FLUTTER/DART/PUB RELATED
+### ----------------------------------------------------
+# Flutter build artifacts and temporary files
+/build/
+/coverage/
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Documentation
+**/doc/api/
+
+# Cache directories
+.pub-cache/
+.pub/
+
+# Platform-specific build artifacts (often redundant, but good for safety)
+# iOS/macOS artifacts
+**/ios/Flutter/.last_build_id
+**/ios/DerivedData/
+**/ios/Pods/
+
+# Android artifacts
+**/android/.gradle/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/build/
+**/android/app/build/
+**/android/local.properties
+
+### ----------------------------------------------------
+### SYMBOLICATION AND OBFUSCATION
+### ----------------------------------------------------
+# Symbolication files (used for debugging/crash reporting)
+app.*.symbols
+app.*.map.json
+
+# Standard Android/iOS build files not in sub-projects
+*.aab
+*.apk
+*.ipa
+
+# Temporary files created by various tools
+*~
+# End of file marker
